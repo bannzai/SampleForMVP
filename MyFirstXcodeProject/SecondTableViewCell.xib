@@ -26,14 +26,15 @@
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="Het-7I-aLn" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="aNA-1b-krB"/>
                     <constraint firstItem="Het-7I-aLn" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="dmh-f8-ZXG"/>
+                    <constraint firstItem="Het-7I-aLn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="hlv-TV-Q6X"/>
+                    <constraint firstAttribute="bottom" secondItem="Het-7I-aLn" secondAttribute="bottom" id="qJN-ZD-pIy"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
                 <outlet property="titleLabel" destination="Het-7I-aLn" id="yO5-uh-tKS"/>
             </connections>
-            <point key="canvasLocation" x="90" y="-26"/>
+            <point key="canvasLocation" x="150" y="-26"/>
         </tableViewCell>
     </objects>
 </document>
