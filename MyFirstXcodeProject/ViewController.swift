@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var pushButton: UIButton!
     @IBOutlet weak var animationButton: UIButton!
     
@@ -35,7 +35,7 @@ class ViewController: UIViewController {
             options: .curveEaseOut,
             animations: {
                 self.animationButton.frame.size = CGSize(width: 100, height: 100)
-        }, completion: { 
+        }, completion: { _ in
             self.animationButton.frame.size = originalSize
         })
     }
