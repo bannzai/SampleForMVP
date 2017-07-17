@@ -32,5 +32,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>hoge</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>fuga</string>
 </dict>
 </plist>

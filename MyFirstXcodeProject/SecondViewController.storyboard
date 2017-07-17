@@ -20,23 +20,8 @@
                     <view key="view" contentMode="scaleToFill" id="yNx-OK-kBm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pi1-cG-V6N">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </tableView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="pi1-cG-V6N" secondAttribute="trailing" id="1Bc-3m-AD8"/>
-                            <constraint firstItem="pi1-cG-V6N" firstAttribute="leading" secondItem="yNx-OK-kBm" secondAttribute="leading" id="9Sv-yd-SwY"/>
-                            <constraint firstItem="h7d-1p-EAQ" firstAttribute="top" secondItem="pi1-cG-V6N" secondAttribute="bottom" id="rnm-3h-O1I"/>
-                            <constraint firstItem="pi1-cG-V6N" firstAttribute="top" secondItem="agv-FS-hD3" secondAttribute="bottom" id="wuV-oE-eIg"/>
-                        </constraints>
                     </view>
-                    <connections>
-                        <outlet property="tableView" destination="pi1-cG-V6N" id="k8g-kU-NNe"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OHZ-fX-NXQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
